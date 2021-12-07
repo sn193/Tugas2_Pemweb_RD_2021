@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-position: auto;
+            background-size: cover;
+        }
+
+        table{
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        
+        th{
+            border: 1px solid #ddd;
+            padding: 10px;
+            background-color: rgb(61, 63, 56);
+            color: #ffff;
+        }
+
+        td{
+            border: 1px solid #ddd;
+        }
+        #no{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            font-family: "Lucida handwriting";
+        }
+        div{
+            background-color: ghostwhite;
+            border: 1px outset rgb(135, 155, 222);
+            top: 50%;
+            width: 50%;
+            margin: auto;
+            padding: 12px;
+        }
+        footer{
+            font-family: "Lucida handwriting";
+            font-size: small;
+        }
+    </style>
+    <title>Data Peminjaman</title>
+</head>
+<body>
+    <br>
+    <div>
+        <p>Data Peminjaman Buku</p>
+
+        <table method="GET">
+            <tr class="head">
+                <th>No. </th>
+                <th>Nama Peminjam</th>
+                <th>No.HP</th>
+                <th>Buku yang dipinjam</th>
+            </tr>
+    
+            <tr>
+                <td id="no">1.</td>
+                <td>Stephanie H P Napitupulu</td>
+                <td>081234567890</td>
+                <td>
+                    <ul>
+                        <li>Fisika Dasar Halliday Jilid 1</li>
+                        <li>Statistika Deskriptif dan Probabilitas</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+<footer>
+            Copyright &copy; 2020. All Rights Reserved
+    
+    </footer>
+    
+</body> 
+
+</html>

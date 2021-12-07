@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Peminjaman Buku</title>
+    <style>
+        table{
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            border: 1px solid rgb(135, 155, 222);
+        }
+
+        div.luar{
+            margin: auto;
+            border: 1px outset rgb(135, 155, 222);
+            top: 50%;
+            width: 50%;
+            background-color: ghostwhite;
+        }
+        h2{
+
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            font-family: "Lucida handwriting";
+        }
+        .form{
+            text-align: center;
+        }
+
+        body{
+            font-family: "times roman";
+            background-position: auto;
+            background-size: cover;
+        }
+        button{
+            background-color: rgb(8, 8, 247);
+            border: 1px outset rgb(135, 155, 222);
+            color: #ffff;
+            margin-left: 80%;
+            font-family: Haettenschweiler, "Times Roman";
+        }
+        footer{
+            font-family: "Lucida handwriting";
+            font-size: small;
+        }
+    </style>
+</head>
+<body>
+<br>
+    <div class="luar">
+        <h2 class="form">Form Peminjaman Buku</h2>
+        <form action="data.html" method="GET">
+            <table>
+                <tr>
+                    <th>Email    : <input type="text" name="email"> </th> 
+                </tr>
+                <tr>
+                    <th>Nama    : <input type="text" name="nama"> </th> 
+                </tr>
+                <tr>
+                    <th>NIM      : <input type="text" name="nim"> </th>
+                </tr>
+                <tr>
+                    <th>Prodi   : <input type="text" name="prodi"> </th>
+                </tr> 
+                <tr>
+                    <th>No HP   : <input type="text" name="nomor"> </th>
+                </tr>
+                <tr>
+                    <th>Alamat  : <input type="text" name="alamat"> </th>
+                </tr>
+
+                <tr>
+                    <th>
+                        List Judul Buku yang ingin dipinjam : 
+                            <br><input type="checkbox" name="fisdas"> <label for="it1">Fisika Dasar Halliday Jilid 1</label>
+                            <br><input type="checkbox" name="kimdas"> <label for="it1">Kimia Dasar Raymond Jilid 2</label>
+                            <br><input type="checkbox" name="statistik"> <label for="it1">Statistika Deskriptif dan Probabilitas</label>
+                            <br><input type="checkbox" name="biologi"> <label for="it1">Biologi Sel EMS</label>
+                            <br><input type="checkbox" name="if"> <label for="it1">Algoritma dan Pemograman Edisi 6</label>
+                    </th>
+                </tr>
+            </table>
+            <button type="submit">Pinjam </button>
+        </form>
+    </div>
+    <div>
+    <footer>
+        Copyright &copy; 2020. All Rights Reserved
+
+</footer>
+    </div>
+</body>
+</html>
